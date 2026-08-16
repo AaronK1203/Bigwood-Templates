@@ -136,14 +136,14 @@
         <div class="col-6"></div>
         <div class="col">
             <div class="mb-3">
-                <label for="exampleFormControlInput2" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                <label for="emailInput" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
             </div>
         </div>
         <div class="col">
             <div class="mb-3">
-                <label for="exampleFormControlInput3" class="form-label">Subject</label>
-                <input type="subject" class="form-control" id="exampleFormControlInput3">
+                <label for="subjectInput" class="form-label">Subject</label>
+                <input type="subject" class="form-control" id="subjectInput">
             </div>
         </div>
         <div class="col-2"></div>
@@ -152,8 +152,8 @@
         <div class="col-6"></div>
         <div class="col">
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="bodyInput" class="form-label">Message</label>
+                <textarea class="form-control" id="bodyInput" rows="3"></textarea>
             </div>
         </div>
         <div class="col-2"></div>
@@ -161,7 +161,8 @@
     <div class="row pb-5">
         <div class="col-6"></div>
         <div class="col">
-            <button type="button" class="btn btn-berry">Submit</button>
+            <div class="g-recaptcha" data-sitekey="6LfVSTItAAAAAPyinxMg2N9YoOuo0KJ8L44zz7Dt"></div>
+            <input type="submit" class="btn btn-berry" value="Submit">
         </div>
     </div>
 </div>
